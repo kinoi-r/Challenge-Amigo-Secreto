@@ -10,4 +10,7 @@ function adicionarAmigo() {
         return;
     }
 
+    listaAmigos.push(nome);
+    atualizarLista();
+    input.value = "";
 }
