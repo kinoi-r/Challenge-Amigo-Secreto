@@ -18,4 +18,4 @@ Este é um projeto simples em JavaScript, HTML e CSS para simular um sorteio de 
 1. Clone o repositório:  
 ```bash
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/kinoi-r/Challenge-Amigo-Secreto.git
