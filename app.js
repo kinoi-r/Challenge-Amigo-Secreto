@@ -1,7 +1,7 @@
 const listaAmigos = [];
 
 function adicionarAmigo() {
-    const input = document.getElementById("Amigo");
+    const input = document.getElementById("amigo");
     const nome = input.value.trim();
     const lista = document.getElementById("listaAmigos");
 
@@ -34,5 +34,5 @@ function sortearAmigo() {
 
     const sorteado = listaAmigos[Math.floor(Math.random() * listaAmigos.length)];
     const resultado = document.getElementById("resultado");
-    resultado.innerHTML = <li>Amigo sorteado: <strong>${sorteado}</strong></li>;
+    resultado.innerHTML = `<li>Amigo sorteado: <strong>${sorteado}</strong></li>`;
 }
