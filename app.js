@@ -25,3 +25,14 @@ function atualizarLista() {
         lista.appendChild(item);
     })
 }
+
+function sortearAmigo() {
+    if (listaAmigos.length === 0) {
+        alert("A lista está vazia. Adicione pelo menos um nome antes de sortear.");
+        return;
+    }
+
+    const sorteado = listaAmigos[Math.floor(Math.random() * listaAmigos.length)];
+    const resultado = document.getElementById("resultado");
+    resultado.innerHTML = <li>Amigo sorteado: <strong>${sorteado}</strong></li>;
+}
